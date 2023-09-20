@@ -1,0 +1,22 @@
+# must be unique in a given SonarQube instance
+# sonar.projectKey=my:project
+
+# --- optional properties ---
+
+# defaults to project key
+#sonar.projectName=My project
+# defaults to 'not provided'
+#sonar.projectVersion=1.0
+ 
+# Path is relative to the sonar-project.properties file. Defaults to .
+#sonar.sources=.
+ 
+# Encoding of the source code. Default is default system encoding
+#sonar.sourceEncoding=UTF-8
+sonar.projectKey=<<ProjectName>>
+sonar.projectName=<<ProjectName>>
+sonar.host.url=http://sonarqube:9000
+sonar.token=sqa_020449bbe95a552ad0c95e889fb367d580875da2
+sonar.sources=.
+sonar.exclusions=test_inputs/**,all_outputs/**,gradlew/**,.gradlew/**,venv/**,sonarqube/**
+#sonar.python.version=2.7
